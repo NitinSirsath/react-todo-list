@@ -29,9 +29,8 @@ padding: 0px 200px;
     
     
 `
-const Checkbutton = styled.button`
 
-`
+
 const Listitems =styled.li`
 list-style: none;
   padding: 5px 10px;

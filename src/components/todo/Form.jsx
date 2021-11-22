@@ -93,7 +93,7 @@ const Form = () => {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState('all')
-  const [filtered , setFiltered] = useState([]);
+  // const [filtered , setFiltered] = useState([]);
   
   // const filterHandler = () =>  {
   //   switch(status){
@@ -113,6 +113,7 @@ const Form = () => {
 
   const statusHandler = (e) => {
     setStatus(e.target.value)
+    console.log(status);
   }
 
   const handleAdd = (e) => {
